@@ -1,9 +1,4 @@
-Papa.parse(shortlist.txt,{
-        complete: function(results) {
-            console.log("Finished:", results.data);
-        }
-    }
-);
+
 function addRow(n,name,shortname,code,ED,state) {
     var enter=[n,name,shortname,code,ED,state],
         tabContent= "<tr>";
